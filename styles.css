@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2EAFD;
+    font-family: 'Sora', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta {
+    margin: 20px 0;
+    padding: 16px 16px 20px 16px;
+    max-width: 336px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px 0px rgba(85,85,85,0.08);
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textEtiqueta {
+    margin: 16px 0 16px 0;
+    padding: 6px 16px;
+    background: #E5EAF0;
+    border-radius: 12px;
+    font-size: 0.625rem;
+    color: #7C19EE;
+    font-weight: 600;
+    align-self: flex-start;
+    border: 1px solid #eadcfc;
+}
+
+.titulo{
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0 0 6px 0;
+}
+
+.textDescrip {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    padding: 0;
+    color: #555555;  
+}
+
+.piePag {
+    border-top: 1px solid #F2EAFD;
+    font-size: 0.75rem;
+    margin-top: auto;
+    padding-top: 20px;
+    color: #555555;   
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+footer a {
+    text-decoration: none;
+}
